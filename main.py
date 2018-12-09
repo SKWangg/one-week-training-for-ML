@@ -32,3 +32,9 @@ tree_acc = tree.score(x_test, y_test)
 print("LogisticRegression Acc: %f", lr_acc)
 print("SVM Acc: %f", svm_acc)
 print("DecisionTree Acc: %f", tree_acc)
+
+
+#运行结果
+LogisticRegression Acc: %f 0.7484232655921513
+SVM Acc: %f 0.7484232655921513
+DecisionTree Acc: %f 0.6846531184302733

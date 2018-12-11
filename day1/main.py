@@ -29,12 +29,12 @@ tree.fit(x_train, y_train)
 lr_acc = lr.score(x_test, y_test)
 svm_acc = svm_linearSVC.score(x_test, y_test)
 tree_acc = tree.score(x_test, y_test)
-print("LogisticRegression Acc: %f", lr_acc)
-print("SVM Acc: %f", svm_acc)
-print("DecisionTree Acc: %f", tree_acc)
+print("LogisticRegression Acc: ", lr_acc)
+print("SVM Acc: ", svm_acc)
+print("DecisionTree Acc: ", tree_acc)
 
 
 #运行结果
-LogisticRegression Acc: %f 0.7484232655921513
-SVM Acc: %f 0.7484232655921513
-DecisionTree Acc: %f 0.6846531184302733
+LogisticRegression Acc: 0.7484232655921513
+SVM Acc: 0.7484232655921513
+DecisionTree Acc: 0.6846531184302733

@@ -1,0 +1,41 @@
+1.逻辑回归
+best score: 0.7917042380522994
+{'C': 0.01}
+test score: 0.7848633496846531
+AUC: 0.7757373269485567
+
+2.svm
+best score: 0.7917042380522994
+{'C': 0.1}
+test score: 0.779957953749124
+AUC: 0.7682753800089722
+
+3.决策树
+best score: 0.7493237150586114
+{'max_depth': 0.01}
+test score: 0.7484232655921513
+AUC: 0.5
+
+4.随机森林
+best score: 0.7902013826269912
+{'max_depth': 100, 'n_estimators': 45}
+test score: 0.775052557813595
+AUC: 0.7443794143114979
+
+5.GBDT
+best score: 0.7941088067327923
+{'max_features': 0.1, 'n_estimators': 35}
+test score: 0.7862648913805186
+AUC: 0.7743941243362231
+
+6.XGBoost
+best score: 0.7935076645626691
+{'gamma': 10, 'min-child-weight': 0.01}
+test score: 0.7890679747722494
+AUC: 0.775722982066289
+
+7.LightGBM
+best score: 0.7892996693718064
+{'max_depth': 20, 'n_estimators': 20}
+test score: 0.7743517869656622
+AUC: 0.757001606626814
